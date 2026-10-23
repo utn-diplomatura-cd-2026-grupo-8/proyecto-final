@@ -1,0 +1,18 @@
+,train,test
+filas,1296675,555719
+fraudes,7506,2145
+tasa_fraude_pct,0.579,0.386
+desde,2019-01-01 00:00:18,2020-06-21 12:14:25
+hasta,2020-06-21 12:13:37,2020-12-31 23:59:34
+nulos,0,0
+filas_duplicadas,0,0
+trans_num_repetidos,0,0
+tarjetas,983,924
+comercios,693,693
+categorias,14,14
+ocupaciones,494,478
+amt_mediana,47.52,47.29
+amt_media,70.35,69.39
+amt_max,28948.9,22768.11
+amt_pct_sobre_limite_IQR,5.19,5.0
+monto_fraude_total_usd,3988088.61,1133324.68

@@ -1,0 +1,10 @@
+# Versiones fijadas: el umbral operativo de XGBoost y la API de pandas (groupby.rolling) varían entre versiones.
+# Requiere Python 3.11 o superior (numpy 2.4 y pandas 3). Probado con Python 3.13.
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+xgboost==3.4.1
+shap==0.52.0
+matplotlib>=3.8
+seaborn>=0.13
+jupyter>=1.0

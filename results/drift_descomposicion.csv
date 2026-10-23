@@ -1,0 +1,4 @@
+,valor
+tasa_train,0.005788651743883394
+tasa_test,0.0038598644278853163
+tasa_test_esperada_con_tasas_train_y_mezcla_test,0.005783207829946457

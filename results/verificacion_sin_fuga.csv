@@ -1,0 +1,12 @@
+,identica_con_datos_truncados
+n_prev,True
+secs_since_prev,True
+past_mean_amt,True
+past_std_amt,True
+amt_ratio,True
+amt_z,True
+cnt_1h,True
+sum_1h,True
+cnt_24h,True
+sum_24h,True
+new_cat,True

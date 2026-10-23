@@ -1,0 +1,13 @@
+fold,semilla,n_iter,max_iter,convergio
+1,42,89,300,True
+1,43,96,300,True
+1,44,90,300,True
+2,42,60,300,True
+2,43,130,300,True
+2,44,104,300,True
+3,42,85,300,True
+3,43,84,300,True
+3,44,107,300,True
+4,42,96,300,True
+4,43,111,300,True
+4,44,72,300,True
