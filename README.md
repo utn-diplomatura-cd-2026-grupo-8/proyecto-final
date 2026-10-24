@@ -19,11 +19,11 @@ Los datos son **sintéticos** (simulador Sparkov) y sus patrones son muy regular
 
 ## Descarga del dataset
 
-El dataset **no está incluido en el repositorio** (~500 MB descomprimido):
+El dataset **no está incluido en el repositorio** (~212 MB comprimido, ~500 MB descomprimido), pero **no hace falta descargarlo a mano**: la primera celda del notebook lo hace sola.
 
-1. Descargá el dataset desde Kaggle: <https://www.kaggle.com/datasets/kartik2112/fraud-detection> (requiere una cuenta gratuita).
-2. Guardá el archivo con el nombre **`dataset.zip`** en la raíz del proyecto.
-3. Ejecutá el notebook: la primera celda descomprime `dataset.zip` en `dataset/` (ignorada por git) y genera `fraudTrain.csv` y `fraudTest.csv`.
+- Si `dataset/fraudTrain.csv` y `dataset/fraudTest.csv` ya existen, no hace nada.
+- Si no, usa `dataset.zip` de la raíz del proyecto, y si tampoco está, lo descarga de Kaggle (<https://www.kaggle.com/api/v1/datasets/download/kartik2112/fraud-detection>; es un dataset público y no requiere cuenta ni credenciales) y lo descomprime en `dataset/` (ignorada por git).
+- Necesita conexión a internet solo la primera vez. Si la descarga falla (por ejemplo, sin red o detrás de un proxy), el notebook muestra un error claro: bajá el zip desde <https://www.kaggle.com/datasets/kartik2112/fraud-detection> y guardalo como `dataset.zip` en la raíz.
 
 ## Estructura
 
@@ -36,6 +36,7 @@ El dataset **no está incluido en el repositorio** (~500 MB descomprimido):
 ├── requirements.txt
 ├── results/                  # Tablas y figuras que cita el informe
 │   └── README.md
+├── dataset.zip               # Se descarga automáticamente al ejecutar el notebook (no versionado)
 └── dataset/                  # Generado al descomprimir (no versionado)
 ```
 
